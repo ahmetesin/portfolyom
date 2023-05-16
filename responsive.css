@@ -1,0 +1,136 @@
+@media (max-width:992px){
+    .nav ul{
+        width: 100%;
+    }
+    .site-container{
+        width: 100%;
+    }
+    .flex-container{
+        width: 100%;
+    }
+    .personal-content{
+        width: 100%;
+    }
+    #blog{
+        text-align: center;
+        width: 100%;
+        height: 140vh;
+    }
+    .text h2{
+        text-align: center;
+       
+    }
+    .items{
+        margin-top: 1rem;
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+    .container-1 {
+        width: 100%;
+        height: 100vh;
+    }
+    .text-1{
+        width: 100%;
+    }
+    .container-2{
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .container-3{
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+}
+/*ipad tablets*/
+@media (min-width:481px) and (max-width:768px){
+    .site-container{
+        width: 100%;
+    }
+    .flex-container{
+        width: 100%;
+    }
+    .personal-content{
+        width: 100%;
+    }
+    #blog{
+        text-align: center;
+        width: 100%;
+        height: 140vh;
+    }
+    .text h2{
+        text-align: center;
+       
+    }
+    .items{
+        margin-top: 1rem;
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+    .container-1 {
+        width: 100%;
+        height: 100vh;
+    }
+    .text-1{
+        width: 100%;
+        
+    }
+    .container-2{
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .container-3{
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .site-container{
+        width: 100%;
+    }
+    .flex-container{
+        width: 100%;
+    }
+    .personal-content{
+        width: 100%;
+    }
+    #blog{
+        text-align: center;
+        width: 100%;
+        height: 140vh;
+    }
+    .text h2{
+        text-align: center;
+       
+    }
+    .items{
+        margin-top: 1rem;
+        width: 100%;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+    .container-1 {
+        width: 100%;
+        height: 100vh;
+    }
+    .text-1{
+        width: 100%;
+    }
+    .container-2{
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .container-3{
+        width: 100%;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+}
+

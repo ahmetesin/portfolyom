@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.apptrawler.com/wp-content/uploads/2022/07/cloud-computing.jpeg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.nav-site{
+    width: 100%;
+    height: 80px;
+    top: 0;
+    text-align: center;    
+    background-color: rgb(8, 3, 77);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.nav-site:hover{
+    background-color: rgb(7, 7, 6);
+}
+.nav-site ul{
+    display: flex;
+    
+   
+    list-style-type: none;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    align-items: center;
+}
+ul img, li{
+    margin: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul img{
+    width: 150px;
+    height: 60px;
+}
+li a{
+    color: inherit;
+    text-decoration: none;
+}
+li a:hover{
+    color: yellow;
+}
+#isim{
+    margin-left: 40%;
+}
+.site-container{
+
+}
+.flex-container{
+    display: flex;
+    margin: 1px;
+    flex-wrap: wrap;
+    
+}
+.personal-content{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(11, 11, 49);
+    color: white;
+    margin-top: 3rem;
+    position: sticky;
+    z-index: 999;
+    margin-left: 10%;
+    border-radius: 8px;
+    border: 1px solid yellow;
+    
+}
+
+
+.img img{
+    width: 120px;
+    height: 120px;
+    margin-top: 2rem;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    
+    
+}
+.img img:hover{
+    transition: 1;
+    transform: scale(1.1);
+    cursor: pointer;
+    border-color: rgb(255, 4, 4);
+}
+.img h3,p{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+.icons {
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    border-top:1px dotted rgb(150, 124, 124) ;
+    border-bottom: 1px dotted rgb(148, 127, 127);
+}
+.icons i{
+   margin-top: 2.3rem;
+   
+   
+}
+.email h4{
+    margin-top: 1rem;
+}
+.btn button{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    font-family: sans-serif;
+   font-weight: bolder;
+   background-color: rgb(214, 176, 5);
+   color: white;
+   border: none;
+   border-radius: 15px;
+}
+.side-content{
+    background-color: rgb(4, 4, 54);
+    width: 50%;
+    height: 80vh;
+    margin-top: 4rem;
+    border-radius: 15px;
+    margin-left: 2rem;
+    border: 1px solid yellow;
+}
+.text{
+    align-items: center;
+    width: 50%;
+    
+    
+}
+.text h2{
+   width: 100%;
+    text-align: center;
+    margin-left: 50%;
+    padding: 10px;
+    margin-top: 2rem;
+    color: rgb(143, 136, 136);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+}
+.col{
+    width: 100%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(143, 136, 136);
+    margin-top: 1rem;
+    
+}
+.items{
+    width: 100%;
+    height: 20vh;
+    left: 0;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5%;
+    margin: 3%;
+   
+    
+}
+.container-1{
+    background-color: rgb(3, 3, 44);
+    color: rgb(168, 157, 157);
+    font-family: sans-serif;
+    width: 22%;
+    height: 40vh;
+    border-radius: 8px;
+    margin-right: 16rem;
+    border: 1px solid yellow;
+    
+
+}
+.text-1{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.container-2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSffkm-0a0-A7Wy1o5fC3ok5rMLKP-55CUXOJuJDbvn0QYI_PvCHFdy6-Uq6eH5SPiQhY&usqp=CAU);
+    width: 20%;
+    height: 30vh;
+    border: 2px solid black;
+    border-radius: 10%;
+    
+}
+.container-3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRleqnVqBqCBq1ejsiVFscbH0QnZ6SL1RBQX1mAR5RLxFPI9s-YAj8mcun6Kp3Ot6QjtAE&usqp=CAU);
+    width: 20%;
+    height: 30vh;
+    margin-left: 3rem;
+    border-radius: 10%;
+    border: 2px solid black;
+}
